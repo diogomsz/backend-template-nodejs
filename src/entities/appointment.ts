@@ -3,7 +3,6 @@ export interface IAppointmentProps {
     startsAt: Date;
     endsAt: Date;
 }
-    
 
 export class Appointment {
     private props: IAppointmentProps;
